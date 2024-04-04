@@ -1,16 +1,21 @@
 <template>
-	<div>
+	<div class="flex flex-col items-center bg-primary-white">
 		<Navbar/>
-		<router-view></router-view>
+		<div class="h-[100vh]">
+			<router-view></router-view>
+		</div>
+		<Footer/>
 	</div>
 </template>
 
 <script>
-import Navbar from '@/plugins/app@navbar/navbar.vue' 
+import Navbar from '@/plugins/app@navbar/navbar.vue'
+import Footer from '@/plugins/app@footer/footer.vue'
 
 export default {
 	components: {
-		Navbar
+		Navbar,
+	Footer
 	}
 }
 
