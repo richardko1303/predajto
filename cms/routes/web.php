@@ -1,5 +1,8 @@
 <?php
 
+use App\Models\Category;
+use App\Models\Inzerat;
+use App\Models\SubCategory;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+
 });

@@ -16,10 +16,11 @@ class CreateInzeratsTable extends Migration
         Schema::create('inzerats', function (Blueprint $table) {
             $table->id();
             $table->foreignId('sub_category_id');
-            $table->foreignId('user_id');
+            $table->foreignId('user_id')->nullable();
 
             $table->string('title');
             $table->text('description')->nullable();
+            $table->text('important_info')->nullable();
             $table->string('price');
 
             $table->string('email');
