@@ -1,6 +1,10 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+//THEMES
+
+import '../_themes/global.sass'
+
 import App from './App.vue'
 import router from './router'
 
