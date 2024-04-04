@@ -12,10 +12,10 @@
         </section>
 
         <section class="main flex justify-around">
-            <div>
+            <div class="flex justify-center w-[20vw]">
                 <Categories/>
             </div>
-            <div>
+            <div class="flex justify-center w-[70vw]">
                 <p>A</p>
             </div>
         </section>
