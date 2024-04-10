@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/cms/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/app/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/app/src/components/__tests__" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/cms/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/cms/tests/Unit" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/cms/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/cms/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/cms/vendor/carbonphp/carbon-doctrine-types" />
