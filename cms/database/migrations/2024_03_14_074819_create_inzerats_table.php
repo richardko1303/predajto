@@ -21,7 +21,9 @@ class CreateInzeratsTable extends Migration
             $table->string('title');
             $table->text('description')->nullable();
             $table->text('important_info')->nullable();
-            $table->string('price');
+            $table->double('price');
+
+            $table->string('location');
 
             $table->string('email');
             $table->string('phone');

@@ -17,3 +17,13 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/search', 'App\Http\Controllers\InzeratController@search');
+
+Route::group(['prefix' => 'inzerat'], function () {
+    Route::get('/', 'App\Http\Controllers\InzeratController@index');
+    Route::get('/{id}', 'App\Http\Controllers\InzeratController@show');
+    Route::post('/', 'App\Http\Controllers\InzeratController@store');
+    Route::put('/{id}', 'App\Http\Controllers\InzeratController@update');
+    Route::delete('/{id}', 'App\Http\Controllers\InzeratController@destroy');
+});
