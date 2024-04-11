@@ -11,7 +11,7 @@
             <p class="text-primary-gray text-[16px]">Mesto:</p>
         </section>
 
-        <section class="main flex justify-around">
+        <section class="main flex justify-between">
             <div class="flex justify-center w-[20vw]">
                 <Categories/>
             </div>

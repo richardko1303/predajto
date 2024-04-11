@@ -1,6 +1,6 @@
 <template>
-    <div class="">
-        <p class="py-2 font-semibold text-primary-gray select-none">KATEGÓRIE</p>
+    <div class="select-none">
+        <p class="py-2 font-semibold text-primary-gray">KATEGÓRIE</p>
         <div class="py-2 gap-1">
             <ul class="text-lg">
                 <li v-for="c in categories" class="flex flex-col mb-1">
