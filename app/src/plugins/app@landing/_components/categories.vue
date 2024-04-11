@@ -8,7 +8,7 @@
                         <img class="w-7" :src="getIcon(`category-${c?.icon ?? 'table'}.svg`)" alt="Category Icon" />
                         <p
                             @click="selected_category = c.name"
-                            class="ml-2 w-44 cursor-pointer overflow-scroll"
+                            class="ml-2 w-44 cursor-pointer"
                             :class="selected_category == c.name ? 'font-semibold' : ''"
                         >
                             {{ c.name }}

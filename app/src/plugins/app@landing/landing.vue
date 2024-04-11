@@ -12,7 +12,7 @@
         </section>
 
         <section class="main flex justify-between">
-            <div class="flex justify-center w-[20vw]">
+            <div class="flex justify-center w-[20vw] ml-16">
                 <Categories/>
             </div>
             <div class="flex justify-center w-[70vw]">
