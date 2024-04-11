@@ -4,7 +4,7 @@
 			<div class="flex h-20 justify-between">
 				<div class="flex">
 					<div class="flex flex-shrink-0 items-center">
-						<img class="w-44" src="@/assets/main-logo.svg" alt="Your Company" />
+						<img class="w-44 cursor-pointer" src="@/assets/main-logo.svg" alt="Your Company" />
 					</div>
 				</div>
 				<div class="hidden sm:ml-6 sm:flex sm:items-center">
