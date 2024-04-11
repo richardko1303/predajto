@@ -1,21 +1,34 @@
 <template>
     <div class="">
-        <p class="text-primary-gray font-semibold pt-2">KATEGÓRIE</p>
-        <div class="p-2 gap-1">
-            <ul class="pl-4 text-lg">
-                <li v-for="c in categories" class="flex flex-col">
-                    <div class="flex flex-row align-middle">
-                        <p class="w-32">{{ c.name }}</p>
+        <p class="py-2 font-semibold text-primary-gray select-none">KATEGÓRIE</p>
+        <div class="py-2 gap-1">
+            <ul class="text-lg">
+                <li v-for="c in categories" class="flex flex-col mb-1">
+                    <div class="flex flex-row">
+                        <img class="w-7" :src="getIcon(`category-${c?.icon ?? 'table'}.svg`)" alt="Category Icon" />
+                        <p
+                            @click="selected_category = c.name"
+                            class="ml-2 w-44 cursor-pointer overflow-scroll"
+                            :class="selected_category == c.name ? 'font-semibold' : ''"
+                        >
+                            {{ c.name }}
+                        </p>
                         <div
                             v-if="(c?.subcategories?.length ?? 0) > 0"
                             @click="c.expanded = !c.expanded"
-                            class="ml-2 px-2 w-7 text-center bg-primary-light-green hover:bg-primary-dark-green rounded-lg"
+                            class="px-2 w-7 text-center cursor-pointer bg-primary-light-green bg-opacity-30 hover:bg-opacity-100 rounded-lg"
                         >
-                            <p class="text-white">{{ (c.expanded ? '-' : '+') }}</p>
+                            <p class="text-primary-black">{{ (c.expanded ? '-' : '+') }}</p>
                         </div>
                     </div>
-                    <div v-if="c.expanded" v-for="subc in c.subcategories" class="pl-2">
-                        <p class="text-sm text-primary-gray hover:text-primary-black">{{ subc }}</p>
+                    <div v-if="c.expanded" v-for="subc in c.subcategories" class="pl-9">
+                        <p
+                            @click="selected_category = c.name; selected_subcategory = subc;"
+                            class="text-sm cursor-pointer hover:font-semibold"
+                            :class="selected_category == c.name && selected_subcategory == subc ? 'font-semibold text-primary-black' : 'text-primary-gray hover:text-primary-dark-green'"
+                        >
+                            {{ subc }}
+                        </p>
                     </div>
                 </li>
             </ul>
@@ -24,12 +37,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import {defineComponent} from 'vue'
 
 interface Category {
     name: string
     expanded?: boolean | null
     subcategories?: string[]
+    icon?: string
 }
 
 let categories: Category[] = [
@@ -55,7 +69,14 @@ export default defineComponent({
     name: "Categories",
     data() {
         return {
-            categories: categories
+            categories: categories,
+            selected_category: "Vsetky Produkty", // TODO: dat to store
+            selected_subcategory: ""
+        }
+    },
+    methods: {
+        getIcon: function (icon: string) {
+            return new URL(`/src/assets/${icon}`, import.meta.url).href
         }
     }
 })
