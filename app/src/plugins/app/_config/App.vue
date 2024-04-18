@@ -23,7 +23,6 @@ export default {
 		Cookies
 	},
 	mounted() {
-		console.log(this.$cookieStore.getStrictlyNecessaryCookie())
 		if(!this.$cookieStore.getStrictlyNecessaryCookie()) this.$cookieStore.setCookiePosition(1)
 
 		this.$cookieStore.setStrictlyNecessary(this.$cookieStore.getStrictlyNecessaryCookie())
