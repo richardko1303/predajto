@@ -1,6 +1,6 @@
 <template>
-    <div class="">
-        <p class="py-2 font-semibold text-primary-gray select-none">KATEGÓRIE</p>
+    <div class="select-none">
+        <p class="py-2 font-semibold text-primary-gray">KATEGÓRIE</p>
         <div class="py-2 gap-1">
             <ul class="text-lg">
                 <li v-for="c in categories" class="flex flex-col mb-1">
@@ -8,7 +8,7 @@
                         <img class="w-7" :src="getIcon(`category-${c?.icon ?? 'table'}.svg`)" alt="Category Icon" />
                         <p
                             @click="selected_category = c.name"
-                            class="ml-2 w-44 cursor-pointer overflow-scroll"
+                            class="ml-2 w-44 cursor-pointer"
                             :class="selected_category == c.name ? 'font-semibold' : ''"
                         >
                             {{ c.name }}
