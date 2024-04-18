@@ -20,6 +20,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/search', 'App\Http\Controllers\InzeratController@search');
 
+Route::group(['prefix' => 'auth'], function () {
+    Route::post('signup', 'App\Http\Controllers\AuthController@signup');
+    Route::post('login', 'App\Http\Controllers\AuthController@login');
+});
+
 Route::group(['prefix' => 'inzerat'], function () {
     Route::get('/', 'App\Http\Controllers\InzeratController@index');
     Route::get('/{id}', 'App\Http\Controllers\InzeratController@show');
