@@ -18,6 +18,16 @@ class InzeratController extends Controller
         $cenaDo = $request->input('price_max');
         $onlyWImgs = $request->input('onlyImgs');
 
+        $inzerat = Inzerat::where('title', 'like', '%'.$searchString.'%');
+
+        if ($mesto != null) {
+            $inzerat = $inzerat->where('location', 'like', '%'.$mesto.'%');
+        }
+
+        $inzerat = $inzerat->where('price', '>=', $cenaOd)
+            ->where('price', '<=', $cenaDo)
+            ->get();
+
         return [
             'searchString' => $searchString,
             'mesto' => $mesto,
