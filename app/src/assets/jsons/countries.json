@@ -1,0 +1,1490 @@
+[
+	{
+		"Country_Name": "Afghanistan",
+		"Official_Name_English": "Afghanistan",
+		"Country_Code": "AF",
+		"Dial": 93
+	},
+	{
+		"Country_Name": "Albania",
+		"Official_Name_English": "Albania",
+		"Country_Code": "AL",
+		"Dial": 355
+	},
+	{
+		"Country_Name": "Algeria",
+		"Official_Name_English": "Algeria",
+		"Country_Code": "DZ",
+		"Dial": 213
+	},
+	{
+		"Country_Name": "American Samoa",
+		"Official_Name_English": "American Samoa",
+		"Country_Code": "AS",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Andorra",
+		"Official_Name_English": "Andorra",
+		"Country_Code": "AD",
+		"Dial": 376
+	},
+	{
+		"Country_Name": "Angola",
+		"Official_Name_English": "Angola",
+		"Country_Code": "AO",
+		"Dial": 244
+	},
+	{
+		"Country_Name": "Anguilla",
+		"Official_Name_English": "Anguilla",
+		"Country_Code": "AI",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Antarctica",
+		"Official_Name_English": "",
+		"Country_Code": "AQ",
+		"Dial": 672
+	},
+	{
+		"Country_Name": "Antigua & Barbuda",
+		"Official_Name_English": "Antigua and Barbuda",
+		"Country_Code": "AG",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Argentina",
+		"Official_Name_English": "Argentina",
+		"Country_Code": "AR",
+		"Dial": 54
+	},
+	{
+		"Country_Name": "Armenia",
+		"Official_Name_English": "Armenia",
+		"Country_Code": "AM",
+		"Dial": 374
+	},
+	{
+		"Country_Name": "Aruba",
+		"Official_Name_English": "Aruba",
+		"Country_Code": "AW",
+		"Dial": 297
+	},
+	{
+		"Country_Name": "Australia",
+		"Official_Name_English": "Australia",
+		"Country_Code": "AU",
+		"Dial": 61
+	},
+	{
+		"Country_Name": "Austria",
+		"Official_Name_English": "Austria",
+		"Country_Code": "AT",
+		"Dial": 43
+	},
+	{
+		"Country_Name": "Azerbaijan",
+		"Official_Name_English": "Azerbaijan",
+		"Country_Code": "AZ",
+		"Dial": 994
+	},
+	{
+		"Country_Name": "Bahamas",
+		"Official_Name_English": "Bahamas",
+		"Country_Code": "BS",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Bahrain",
+		"Official_Name_English": "Bahrain",
+		"Country_Code": "BH",
+		"Dial": 973
+	},
+	{
+		"Country_Name": "Bangladesh",
+		"Official_Name_English": "Bangladesh",
+		"Country_Code": "BD",
+		"Dial": 880
+	},
+	{
+		"Country_Name": "Barbados",
+		"Official_Name_English": "Barbados",
+		"Country_Code": "BB",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Belarus",
+		"Official_Name_English": "Belarus",
+		"Country_Code": "BY",
+		"Dial": 375
+	},
+	{
+		"Country_Name": "Belgium",
+		"Official_Name_English": "Belgium",
+		"Country_Code": "BE",
+		"Dial": 32
+	},
+	{
+		"Country_Name": "Belize",
+		"Official_Name_English": "Belize",
+		"Country_Code": "BZ",
+		"Dial": 501
+	},
+	{
+		"Country_Name": "Benin",
+		"Official_Name_English": "Benin",
+		"Country_Code": "BJ",
+		"Dial": 229
+	},
+	{
+		"Country_Name": "Bermuda",
+		"Official_Name_English": "Bermuda",
+		"Country_Code": "BM",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Bhutan",
+		"Official_Name_English": "Bhutan",
+		"Country_Code": "BT",
+		"Dial": 975
+	},
+	{
+		"Country_Name": "Bolivia",
+		"Official_Name_English": "Bolivia (Plurinational State of)",
+		"Country_Code": "BO",
+		"Dial": 591
+	},
+	{
+		"Country_Name": "Bosnia",
+		"Official_Name_English": "Bosnia and Herzegovina",
+		"Country_Code": "BA",
+		"Dial": 387
+	},
+	{
+		"Country_Name": "Botswana",
+		"Official_Name_English": "Botswana",
+		"Country_Code": "BW",
+		"Dial": 267
+	},
+	{
+		"Country_Name": "Bouvet Island",
+		"Official_Name_English": "",
+		"Country_Code": "BV",
+		"Dial": 47
+	},
+	{
+		"Country_Name": "Brazil",
+		"Official_Name_English": "Brazil",
+		"Country_Code": "BR",
+		"Dial": 55
+	},
+	{
+		"Country_Name": "British Indian Ocean Territory",
+		"Official_Name_English": "",
+		"Country_Code": "IO",
+		"Dial": 246
+	},
+	{
+		"Country_Name": "British Virgin Islands",
+		"Official_Name_English": "British Virgin Islands",
+		"Country_Code": "VG",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Brunei",
+		"Official_Name_English": "Brunei Darussalam",
+		"Country_Code": "BN",
+		"Dial": 673
+	},
+	{
+		"Country_Name": "Bulgaria",
+		"Official_Name_English": "Bulgaria",
+		"Country_Code": "BG",
+		"Dial": 359
+	},
+	{
+		"Country_Name": "Burkina Faso",
+		"Official_Name_English": "Burkina Faso",
+		"Country_Code": "BF",
+		"Dial": 226
+	},
+	{
+		"Country_Name": "Burundi",
+		"Official_Name_English": "Burundi",
+		"Country_Code": "BI",
+		"Dial": 257
+	},
+	{
+		"Country_Name": "Cambodia",
+		"Official_Name_English": "Cambodia",
+		"Country_Code": "KH",
+		"Dial": 855
+	},
+	{
+		"Country_Name": "Cameroon",
+		"Official_Name_English": "Cameroon",
+		"Country_Code": "CM",
+		"Dial": 237
+	},
+	{
+		"Country_Name": "Canada",
+		"Official_Name_English": "Canada",
+		"Country_Code": "CA",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Cape Verde",
+		"Official_Name_English": "Cabo Verde",
+		"Country_Code": "CV",
+		"Dial": 238
+	},
+	{
+		"Country_Name": "Caribbean Netherlands",
+		"Official_Name_English": "Bonaire, Sint Eustatius and Saba",
+		"Country_Code": "BQ",
+		"Dial": 599
+	},
+	{
+		"Country_Name": "Cayman Islands",
+		"Official_Name_English": "Cayman Islands",
+		"Country_Code": "KY",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Central African Republic",
+		"Official_Name_English": "Central African Republic",
+		"Country_Code": "CF",
+		"Dial": 236
+	},
+	{
+		"Country_Name": "Chad",
+		"Official_Name_English": "Chad",
+		"Country_Code": "TD",
+		"Dial": 235
+	},
+	{
+		"Country_Name": "Chile",
+		"Official_Name_English": "Chile",
+		"Country_Code": "CL",
+		"Dial": 56
+	},
+	{
+		"Country_Name": "China",
+		"Official_Name_English": "China",
+		"Country_Code": "CN",
+		"Dial": 86
+	},
+	{
+		"Country_Name": "Christmas Island",
+		"Official_Name_English": "",
+		"Country_Code": "CX",
+		"Dial": 61
+	},
+	{
+		"Country_Name": "Cocos (Keeling) Islands",
+		"Official_Name_English": "",
+		"Country_Code": "CC",
+		"Dial": 61
+	},
+	{
+		"Country_Name": "Colombia",
+		"Official_Name_English": "Colombia",
+		"Country_Code": "CO",
+		"Dial": 57
+	},
+	{
+		"Country_Name": "Comoros",
+		"Official_Name_English": "Comoros",
+		"Country_Code": "KM",
+		"Dial": 269
+	},
+	{
+		"Country_Name": "Congo - Brazzaville",
+		"Official_Name_English": "Congo",
+		"Country_Code": "CG",
+		"Dial": 242
+	},
+	{
+		"Country_Name": "Congo - Kinshasa",
+		"Official_Name_English": "Democratic Republic of the Congo",
+		"Country_Code": "CD",
+		"Dial": 243
+	},
+	{
+		"Country_Name": "Cook Islands",
+		"Official_Name_English": "Cook Islands",
+		"Country_Code": "CK",
+		"Dial": 682
+	},
+	{
+		"Country_Name": "Costa Rica",
+		"Official_Name_English": "Costa Rica",
+		"Country_Code": "CR",
+		"Dial": 506
+	},
+	{
+		"Country_Name": "Croatia",
+		"Official_Name_English": "Croatia",
+		"Country_Code": "HR",
+		"Dial": 385
+	},
+	{
+		"Country_Name": "Cuba",
+		"Official_Name_English": "Cuba",
+		"Country_Code": "CU",
+		"Dial": 53
+	},
+	{
+		"Country_Name": "Curaçao",
+		"Official_Name_English": "Curaçao",
+		"Country_Code": "CW",
+		"Dial": 599
+	},
+	{
+		"Country_Name": "Cyprus",
+		"Official_Name_English": "Cyprus",
+		"Country_Code": "CY",
+		"Dial": 357
+	},
+	{
+		"Country_Name": "Czech Republic",
+		"Official_Name_English": "Czechia",
+		"Country_Code": "CZ",
+		"Dial": 420
+	},
+	{
+		"Country_Name": "Côte d'Ivoire",
+		"Official_Name_English": "Côte d'Ivoire",
+		"Country_Code": "CI",
+		"Dial": 225
+	},
+	{
+		"Country_Name": "Denmark",
+		"Official_Name_English": "Denmark",
+		"Country_Code": "DK",
+		"Dial": 45
+	},
+	{
+		"Country_Name": "Djibouti",
+		"Official_Name_English": "Djibouti",
+		"Country_Code": "DJ",
+		"Dial": 253
+	},
+	{
+		"Country_Name": "Dominica",
+		"Official_Name_English": "Dominica",
+		"Country_Code": "DM",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Dominican Republic",
+		"Official_Name_English": "Dominican Republic",
+		"Country_Code": "DO",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Ecuador",
+		"Official_Name_English": "Ecuador",
+		"Country_Code": "EC",
+		"Dial": 593
+	},
+	{
+		"Country_Name": "Egypt",
+		"Official_Name_English": "Egypt",
+		"Country_Code": "EG",
+		"Dial": 20
+	},
+	{
+		"Country_Name": "El Salvador",
+		"Official_Name_English": "El Salvador",
+		"Country_Code": "SV",
+		"Dial": 503
+	},
+	{
+		"Country_Name": "Equatorial Guinea",
+		"Official_Name_English": "Equatorial Guinea",
+		"Country_Code": "GQ",
+		"Dial": 240
+	},
+	{
+		"Country_Name": "Eritrea",
+		"Official_Name_English": "Eritrea",
+		"Country_Code": "ER",
+		"Dial": 291
+	},
+	{
+		"Country_Name": "Estonia",
+		"Official_Name_English": "Estonia",
+		"Country_Code": "EE",
+		"Dial": 372
+	},
+	{
+		"Country_Name": "Ethiopia",
+		"Official_Name_English": "Ethiopia",
+		"Country_Code": "ET",
+		"Dial": 251
+	},
+	{
+		"Country_Name": "Falkland Islands",
+		"Official_Name_English": "Falkland Islands (Malvinas)",
+		"Country_Code": "FK",
+		"Dial": 500
+	},
+	{
+		"Country_Name": "Faroe Islands",
+		"Official_Name_English": "Faeroe Islands",
+		"Country_Code": "FO",
+		"Dial": 298
+	},
+	{
+		"Country_Name": "Fiji",
+		"Official_Name_English": "Fiji",
+		"Country_Code": "FJ",
+		"Dial": 679
+	},
+	{
+		"Country_Name": "Finland",
+		"Official_Name_English": "Finland",
+		"Country_Code": "FI",
+		"Dial": 358
+	},
+	{
+		"Country_Name": "France",
+		"Official_Name_English": "France",
+		"Country_Code": "FR",
+		"Dial": 33
+	},
+	{
+		"Country_Name": "French Guiana",
+		"Official_Name_English": "French Guiana",
+		"Country_Code": "GF",
+		"Dial": 594
+	},
+	{
+		"Country_Name": "French Polynesia",
+		"Official_Name_English": "French Polynesia",
+		"Country_Code": "PF",
+		"Dial": 689
+	},
+	{
+		"Country_Name": "French Southern Territories",
+		"Official_Name_English": "",
+		"Country_Code": "TF",
+		"Dial": 262
+	},
+	{
+		"Country_Name": "Gabon",
+		"Official_Name_English": "Gabon",
+		"Country_Code": "GA",
+		"Dial": 241
+	},
+	{
+		"Country_Name": "Gambia",
+		"Official_Name_English": "Gambia",
+		"Country_Code": "GM",
+		"Dial": 220
+	},
+	{
+		"Country_Name": "Georgia",
+		"Official_Name_English": "Georgia",
+		"Country_Code": "GE",
+		"Dial": 995
+	},
+	{
+		"Country_Name": "Germany",
+		"Official_Name_English": "Germany",
+		"Country_Code": "DE",
+		"Dial": 49
+	},
+	{
+		"Country_Name": "Ghana",
+		"Official_Name_English": "Ghana",
+		"Country_Code": "GH",
+		"Dial": 233
+	},
+	{
+		"Country_Name": "Gibraltar",
+		"Official_Name_English": "Gibraltar",
+		"Country_Code": "GI",
+		"Dial": 350
+	},
+	{
+		"Country_Name": "Greece",
+		"Official_Name_English": "Greece",
+		"Country_Code": "GR",
+		"Dial": 30
+	},
+	{
+		"Country_Name": "Greenland",
+		"Official_Name_English": "Greenland",
+		"Country_Code": "GL",
+		"Dial": 299
+	},
+	{
+		"Country_Name": "Grenada",
+		"Official_Name_English": "Grenada",
+		"Country_Code": "GD",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Guadeloupe",
+		"Official_Name_English": "Guadeloupe",
+		"Country_Code": "GP",
+		"Dial": 590
+	},
+	{
+		"Country_Name": "Guam",
+		"Official_Name_English": "Guam",
+		"Country_Code": "GU",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Guatemala",
+		"Official_Name_English": "Guatemala",
+		"Country_Code": "GT",
+		"Dial": 502
+	},
+	{
+		"Country_Name": "Guernsey",
+		"Official_Name_English": "Guernsey",
+		"Country_Code": "GG",
+		"Dial": 44
+	},
+	{
+		"Country_Name": "Guinea",
+		"Official_Name_English": "Guinea",
+		"Country_Code": "GN",
+		"Dial": 224
+	},
+	{
+		"Country_Name": "Guinea-Bissau",
+		"Official_Name_English": "Guinea-Bissau",
+		"Country_Code": "GW",
+		"Dial": 245
+	},
+	{
+		"Country_Name": "Guyana",
+		"Official_Name_English": "Guyana",
+		"Country_Code": "GY",
+		"Dial": 592
+	},
+	{
+		"Country_Name": "Haiti",
+		"Official_Name_English": "Haiti",
+		"Country_Code": "HT",
+		"Dial": 509
+	},
+	{
+		"Country_Name": "Heard & McDonald Islands",
+		"Official_Name_English": "",
+		"Country_Code": "HM",
+		"Dial": 672
+	},
+	{
+		"Country_Name": "Honduras",
+		"Official_Name_English": "Honduras",
+		"Country_Code": "HN",
+		"Dial": 504
+	},
+	{
+		"Country_Name": "Hong Kong",
+		"Official_Name_English": "China, Hong Kong Special Administrative Region",
+		"Country_Code": "HK",
+		"Dial": 852
+	},
+	{
+		"Country_Name": "Hungary",
+		"Official_Name_English": "Hungary",
+		"Country_Code": "HU",
+		"Dial": 36
+	},
+	{
+		"Country_Name": "Iceland",
+		"Official_Name_English": "Iceland",
+		"Country_Code": "IS",
+		"Dial": 354
+	},
+	{
+		"Country_Name": "India",
+		"Official_Name_English": "India",
+		"Country_Code": "IN",
+		"Dial": 91
+	},
+	{
+		"Country_Name": "Indonesia",
+		"Official_Name_English": "Indonesia",
+		"Country_Code": "ID",
+		"Dial": 62
+	},
+	{
+		"Country_Name": "Iran",
+		"Official_Name_English": "Iran (Islamic Republic of)",
+		"Country_Code": "IR",
+		"Dial": 98
+	},
+	{
+		"Country_Name": "Iraq",
+		"Official_Name_English": "Iraq",
+		"Country_Code": "IQ",
+		"Dial": 964
+	},
+	{
+		"Country_Name": "Ireland",
+		"Official_Name_English": "Ireland",
+		"Country_Code": "IE",
+		"Dial": 353
+	},
+	{
+		"Country_Name": "Isle of Man",
+		"Official_Name_English": "Isle of Man",
+		"Country_Code": "IM",
+		"Dial": 44
+	},
+	{
+		"Country_Name": "Israel",
+		"Official_Name_English": "Israel",
+		"Country_Code": "IL",
+		"Dial": 972
+	},
+	{
+		"Country_Name": "Italy",
+		"Official_Name_English": "Italy",
+		"Country_Code": "IT",
+		"Dial": 39
+	},
+	{
+		"Country_Name": "Jamaica",
+		"Official_Name_English": "Jamaica",
+		"Country_Code": "JM",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Japan",
+		"Official_Name_English": "Japan",
+		"Country_Code": "JP",
+		"Dial": 81
+	},
+	{
+		"Country_Name": "Jersey",
+		"Official_Name_English": "Jersey",
+		"Country_Code": "JE",
+		"Dial": 44
+	},
+	{
+		"Country_Name": "Jordan",
+		"Official_Name_English": "Jordan",
+		"Country_Code": "JO",
+		"Dial": 962
+	},
+	{
+		"Country_Name": "Kazakhstan",
+		"Official_Name_English": "Kazakhstan",
+		"Country_Code": "KZ",
+		"Dial": 7
+	},
+	{
+		"Country_Name": "Kenya",
+		"Official_Name_English": "Kenya",
+		"Country_Code": "KE",
+		"Dial": 254
+	},
+	{
+		"Country_Name": "Kiribati",
+		"Official_Name_English": "Kiribati",
+		"Country_Code": "KI",
+		"Dial": 686
+	},
+	{
+		"Country_Name": "Kuwait",
+		"Official_Name_English": "Kuwait",
+		"Country_Code": "KW",
+		"Dial": 965
+	},
+	{
+		"Country_Name": "Kyrgyzstan",
+		"Official_Name_English": "Kyrgyzstan",
+		"Country_Code": "KG",
+		"Dial": 996
+	},
+	{
+		"Country_Name": "Laos",
+		"Official_Name_English": "Lao People's Democratic Republic",
+		"Country_Code": "LA",
+		"Dial": 856
+	},
+	{
+		"Country_Name": "Latvia",
+		"Official_Name_English": "Latvia",
+		"Country_Code": "LV",
+		"Dial": 371
+	},
+	{
+		"Country_Name": "Lebanon",
+		"Official_Name_English": "Lebanon",
+		"Country_Code": "LB",
+		"Dial": 961
+	},
+	{
+		"Country_Name": "Lesotho",
+		"Official_Name_English": "Lesotho",
+		"Country_Code": "LS",
+		"Dial": 266
+	},
+	{
+		"Country_Name": "Liberia",
+		"Official_Name_English": "Liberia",
+		"Country_Code": "LR",
+		"Dial": 231
+	},
+	{
+		"Country_Name": "Libya",
+		"Official_Name_English": "Libya",
+		"Country_Code": "LY",
+		"Dial": 218
+	},
+	{
+		"Country_Name": "Liechtenstein",
+		"Official_Name_English": "Liechtenstein",
+		"Country_Code": "LI",
+		"Dial": 423
+	},
+	{
+		"Country_Name": "Lithuania",
+		"Official_Name_English": "Lithuania",
+		"Country_Code": "LT",
+		"Dial": 370
+	},
+	{
+		"Country_Name": "Luxembourg",
+		"Official_Name_English": "Luxembourg",
+		"Country_Code": "LU",
+		"Dial": 352
+	},
+	{
+		"Country_Name": "Macau",
+		"Official_Name_English": "China, Macao Special Administrative Region",
+		"Country_Code": "MO",
+		"Dial": 853
+	},
+	{
+		"Country_Name": "Macedonia",
+		"Official_Name_English": "The former Yugoslav Republic of Macedonia",
+		"Country_Code": "MK",
+		"Dial": 389
+	},
+	{
+		"Country_Name": "Madagascar",
+		"Official_Name_English": "Madagascar",
+		"Country_Code": "MG",
+		"Dial": 261
+	},
+	{
+		"Country_Name": "Malawi",
+		"Official_Name_English": "Malawi",
+		"Country_Code": "MW",
+		"Dial": 265
+	},
+	{
+		"Country_Name": "Malaysia",
+		"Official_Name_English": "Malaysia",
+		"Country_Code": "MY",
+		"Dial": 60
+	},
+	{
+		"Country_Name": "Maldives",
+		"Official_Name_English": "Maldives",
+		"Country_Code": "MV",
+		"Dial": 960
+	},
+	{
+		"Country_Name": "Mali",
+		"Official_Name_English": "Mali",
+		"Country_Code": "ML",
+		"Dial": 223
+	},
+	{
+		"Country_Name": "Malta",
+		"Official_Name_English": "Malta",
+		"Country_Code": "MT",
+		"Dial": 356
+	},
+	{
+		"Country_Name": "Marshall Islands",
+		"Official_Name_English": "Marshall Islands",
+		"Country_Code": "MH",
+		"Dial": 692
+	},
+	{
+		"Country_Name": "Martinique",
+		"Official_Name_English": "Martinique",
+		"Country_Code": "MQ",
+		"Dial": 596
+	},
+	{
+		"Country_Name": "Mauritania",
+		"Official_Name_English": "Mauritania",
+		"Country_Code": "MR",
+		"Dial": 222
+	},
+	{
+		"Country_Name": "Mauritius",
+		"Official_Name_English": "Mauritius",
+		"Country_Code": "MU",
+		"Dial": 230
+	},
+	{
+		"Country_Name": "Mayotte",
+		"Official_Name_English": "Mayotte",
+		"Country_Code": "YT",
+		"Dial": 262
+	},
+	{
+		"Country_Name": "Mexico",
+		"Official_Name_English": "Mexico",
+		"Country_Code": "MX",
+		"Dial": 52
+	},
+	{
+		"Country_Name": "Micronesia",
+		"Official_Name_English": "Micronesia (Federated States of)",
+		"Country_Code": "FM",
+		"Dial": 691
+	},
+	{
+		"Country_Name": "Moldova",
+		"Official_Name_English": "Republic of Moldova",
+		"Country_Code": "MD",
+		"Dial": 373
+	},
+	{
+		"Country_Name": "Monaco",
+		"Official_Name_English": "Monaco",
+		"Country_Code": "MC",
+		"Dial": 377
+	},
+	{
+		"Country_Name": "Mongolia",
+		"Official_Name_English": "Mongolia",
+		"Country_Code": "MN",
+		"Dial": 976
+	},
+	{
+		"Country_Name": "Montenegro",
+		"Official_Name_English": "Montenegro",
+		"Country_Code": "ME",
+		"Dial": 382
+	},
+	{
+		"Country_Name": "Montserrat",
+		"Official_Name_English": "Montserrat",
+		"Country_Code": "MS",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Morocco",
+		"Official_Name_English": "Morocco",
+		"Country_Code": "MA",
+		"Dial": 212
+	},
+	{
+		"Country_Name": "Mozambique",
+		"Official_Name_English": "Mozambique",
+		"Country_Code": "MZ",
+		"Dial": 258
+	},
+	{
+		"Country_Name": "Myanmar",
+		"Official_Name_English": "Myanmar",
+		"Country_Code": "MM",
+		"Dial": 95
+	},
+	{
+		"Country_Name": "Namibia",
+		"Official_Name_English": "Namibia",
+		"Country_Code": "NA",
+		"Dial": 264
+	},
+	{
+		"Country_Name": "Nauru",
+		"Official_Name_English": "Nauru",
+		"Country_Code": "NR",
+		"Dial": 674
+	},
+	{
+		"Country_Name": "Nepal",
+		"Official_Name_English": "Nepal",
+		"Country_Code": "NP",
+		"Dial": 977
+	},
+	{
+		"Country_Name": "Netherlands",
+		"Official_Name_English": "Netherlands",
+		"Country_Code": "NL",
+		"Dial": 31
+	},
+	{
+		"Country_Name": "New Caledonia",
+		"Official_Name_English": "New Caledonia",
+		"Country_Code": "NC",
+		"Dial": 687
+	},
+	{
+		"Country_Name": "New Zealand",
+		"Official_Name_English": "New Zealand",
+		"Country_Code": "NZ",
+		"Dial": 64
+	},
+	{
+		"Country_Name": "Nicaragua",
+		"Official_Name_English": "Nicaragua",
+		"Country_Code": "NI",
+		"Dial": 505
+	},
+	{
+		"Country_Name": "Niger",
+		"Official_Name_English": "Niger",
+		"Country_Code": "NE",
+		"Dial": 227
+	},
+	{
+		"Country_Name": "Nigeria",
+		"Official_Name_English": "Nigeria",
+		"Country_Code": "NG",
+		"Dial": 234
+	},
+	{
+		"Country_Name": "Niue",
+		"Official_Name_English": "Niue",
+		"Country_Code": "NU",
+		"Dial": 683
+	},
+	{
+		"Country_Name": "Norfolk Island",
+		"Official_Name_English": "Norfolk Island",
+		"Country_Code": "NF",
+		"Dial": 672
+	},
+	{
+		"Country_Name": "North Korea",
+		"Official_Name_English": "Democratic People's Republic of Korea",
+		"Country_Code": "KP",
+		"Dial": 850
+	},
+	{
+		"Country_Name": "Northern Mariana Islands",
+		"Official_Name_English": "Northern Mariana Islands",
+		"Country_Code": "MP",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Norway",
+		"Official_Name_English": "Norway",
+		"Country_Code": "NO",
+		"Dial": 47
+	},
+	{
+		"Country_Name": "Oman",
+		"Official_Name_English": "Oman",
+		"Country_Code": "OM",
+		"Dial": 968
+	},
+	{
+		"Country_Name": "Pakistan",
+		"Official_Name_English": "Pakistan",
+		"Country_Code": "PK",
+		"Dial": 92
+	},
+	{
+		"Country_Name": "Palau",
+		"Official_Name_English": "Palau",
+		"Country_Code": "PW",
+		"Dial": 680
+	},
+	{
+		"Country_Name": "Palestine",
+		"Official_Name_English": "State of Palestine",
+		"Country_Code": "PS",
+		"Dial": 970
+	},
+	{
+		"Country_Name": "Panama",
+		"Official_Name_English": "Panama",
+		"Country_Code": "PA",
+		"Dial": 507
+	},
+	{
+		"Country_Name": "Papua New Guinea",
+		"Official_Name_English": "Papua New Guinea",
+		"Country_Code": "PG",
+		"Dial": 675
+	},
+	{
+		"Country_Name": "Paraguay",
+		"Official_Name_English": "Paraguay",
+		"Country_Code": "PY",
+		"Dial": 595
+	},
+	{
+		"Country_Name": "Peru",
+		"Official_Name_English": "Peru",
+		"Country_Code": "PE",
+		"Dial": 51
+	},
+	{
+		"Country_Name": "Philippines",
+		"Official_Name_English": "Philippines",
+		"Country_Code": "PH",
+		"Dial": 63
+	},
+	{
+		"Country_Name": "Pitcairn Islands",
+		"Official_Name_English": "Pitcairn",
+		"Country_Code": "PN",
+		"Dial": 870
+	},
+	{
+		"Country_Name": "Poland",
+		"Official_Name_English": "Poland",
+		"Country_Code": "PL",
+		"Dial": 48
+	},
+	{
+		"Country_Name": "Portugal",
+		"Official_Name_English": "Portugal",
+		"Country_Code": "PT",
+		"Dial": 351
+	},
+	{
+		"Country_Name": "Puerto Rico",
+		"Official_Name_English": "Puerto Rico",
+		"Country_Code": "PR",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Qatar",
+		"Official_Name_English": "Qatar",
+		"Country_Code": "QA",
+		"Dial": 974
+	},
+	{
+		"Country_Name": "Romania",
+		"Official_Name_English": "Romania",
+		"Country_Code": "RO",
+		"Dial": 40
+	},
+	{
+		"Country_Name": "Russia",
+		"Official_Name_English": "Russian Federation",
+		"Country_Code": "RU",
+		"Dial": 7
+	},
+	{
+		"Country_Name": "Rwanda",
+		"Official_Name_English": "Rwanda",
+		"Country_Code": "RW",
+		"Dial": 250
+	},
+	{
+		"Country_Name": "Réunion",
+		"Official_Name_English": "Réunion",
+		"Country_Code": "RE",
+		"Dial": 262
+	},
+	{
+		"Country_Name": "Saint Barthélemy",
+		"Official_Name_English": "Saint Barthélemy",
+		"Country_Code": "BL",
+		"Dial": 590
+	},
+	{
+		"Country_Name": "Samoa",
+		"Official_Name_English": "Samoa",
+		"Country_Code": "WS",
+		"Dial": 685
+	},
+	{
+		"Country_Name": "San Marino",
+		"Official_Name_English": "San Marino",
+		"Country_Code": "SM",
+		"Dial": 378
+	},
+	{
+		"Country_Name": "Sao Tome and Principe",
+		"Official_Name_English": "Sao Tome and Principe",
+		"Country_Code": "ST",
+		"Dial": 239
+	},
+	{
+		"Country_Name": "Saudi Arabia",
+		"Official_Name_English": "Saudi Arabia",
+		"Country_Code": "SA",
+		"Dial": 966
+	},
+	{
+		"Country_Name": "Senegal",
+		"Official_Name_English": "Senegal",
+		"Country_Code": "SN",
+		"Dial": 221
+	},
+	{
+		"Country_Name": "Serbia",
+		"Official_Name_English": "Serbia",
+		"Country_Code": "RS",
+		"Dial": 381
+	},
+	{
+		"Country_Name": "Seychelles",
+		"Official_Name_English": "Seychelles",
+		"Country_Code": "SC",
+		"Dial": 248
+	},
+	{
+		"Country_Name": "Sierra Leone",
+		"Official_Name_English": "Sierra Leone",
+		"Country_Code": "SL",
+		"Dial": 232
+	},
+	{
+		"Country_Name": "Singapore",
+		"Official_Name_English": "Singapore",
+		"Country_Code": "SG",
+		"Dial": 65
+	},
+	{
+		"Country_Name": "Sint Maarten",
+		"Official_Name_English": "Sint Maarten (Dutch part)",
+		"Country_Code": "SX",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Slovakia",
+		"Official_Name_English": "Slovakia",
+		"Country_Code": "SK",
+		"Dial": 421
+	},
+	{
+		"Country_Name": "Slovenia",
+		"Official_Name_English": "Slovenia",
+		"Country_Code": "SI",
+		"Dial": 386
+	},
+	{
+		"Country_Name": "Solomon Islands",
+		"Official_Name_English": "Solomon Islands",
+		"Country_Code": "SB",
+		"Dial": 677
+	},
+	{
+		"Country_Name": "Somalia",
+		"Official_Name_English": "Somalia",
+		"Country_Code": "SO",
+		"Dial": 252
+	},
+	{
+		"Country_Name": "South Africa",
+		"Official_Name_English": "South Africa",
+		"Country_Code": "ZA",
+		"Dial": 27
+	},
+	{
+		"Country_Name": "South Georgia & South Sandwich Islands",
+		"Official_Name_English": "",
+		"Country_Code": "GS",
+		"Dial": 500
+	},
+	{
+		"Country_Name": "South Korea",
+		"Official_Name_English": "Republic of Korea",
+		"Country_Code": "KR",
+		"Dial": 82
+	},
+	{
+		"Country_Name": "South Sudan",
+		"Official_Name_English": "South Sudan",
+		"Country_Code": "SS",
+		"Dial": 211
+	},
+	{
+		"Country_Name": "Spain",
+		"Official_Name_English": "Spain",
+		"Country_Code": "ES",
+		"Dial": 34
+	},
+	{
+		"Country_Name": "Sri Lanka",
+		"Official_Name_English": "Sri Lanka",
+		"Country_Code": "LK",
+		"Dial": 94
+	},
+	{
+		"Country_Name": "St. Helena",
+		"Official_Name_English": "Saint Helena",
+		"Country_Code": "SH",
+		"Dial": 290
+	},
+	{
+		"Country_Name": "St. Kitts & Nevis",
+		"Official_Name_English": "Saint Kitts and Nevis",
+		"Country_Code": "KN",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "St. Lucia",
+		"Official_Name_English": "Saint Lucia",
+		"Country_Code": "LC",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "St. Martin",
+		"Official_Name_English": "Saint Martin (French part)",
+		"Country_Code": "MF",
+		"Dial": 590
+	},
+	{
+		"Country_Name": "St. Pierre & Miquelon",
+		"Official_Name_English": "Saint Pierre and Miquelon",
+		"Country_Code": "PM",
+		"Dial": 508
+	},
+	{
+		"Country_Name": "St. Vincent & Grenadines",
+		"Official_Name_English": "Saint Vincent and the Grenadines",
+		"Country_Code": "VC",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Sudan",
+		"Official_Name_English": "Sudan",
+		"Country_Code": "SD",
+		"Dial": 249
+	},
+	{
+		"Country_Name": "Suriname",
+		"Official_Name_English": "Suriname",
+		"Country_Code": "SR",
+		"Dial": 597
+	},
+	{
+		"Country_Name": "Svalbard & Jan Mayen",
+		"Official_Name_English": "Svalbard and Jan Mayen Islands",
+		"Country_Code": "SJ",
+		"Dial": 47
+	},
+	{
+		"Country_Name": "Swaziland",
+		"Official_Name_English": "Swaziland",
+		"Country_Code": "SZ",
+		"Dial": 268
+	},
+	{
+		"Country_Name": "Sweden",
+		"Official_Name_English": "Sweden",
+		"Country_Code": "SE",
+		"Dial": 46
+	},
+	{
+		"Country_Name": "Switzerland",
+		"Official_Name_English": "Switzerland",
+		"Country_Code": "CH",
+		"Dial": 41
+	},
+	{
+		"Country_Name": "Syria",
+		"Official_Name_English": "Syrian Arab Republic",
+		"Country_Code": "SY",
+		"Dial": 963
+	},
+	{
+		"Country_Name": "Taiwan",
+		"Official_Name_English": "",
+		"Country_Code": "TW",
+		"Dial": 886
+	},
+	{
+		"Country_Name": "Tajikistan",
+		"Official_Name_English": "Tajikistan",
+		"Country_Code": "TJ",
+		"Dial": 992
+	},
+	{
+		"Country_Name": "Tanzania",
+		"Official_Name_English": "United Republic of Tanzania",
+		"Country_Code": "TZ",
+		"Dial": 255
+	},
+	{
+		"Country_Name": "Thailand",
+		"Official_Name_English": "Thailand",
+		"Country_Code": "TH",
+		"Dial": 66
+	},
+	{
+		"Country_Name": "Timor-Leste",
+		"Official_Name_English": "Timor-Leste",
+		"Country_Code": "TL",
+		"Dial": 670
+	},
+	{
+		"Country_Name": "Togo",
+		"Official_Name_English": "Togo",
+		"Country_Code": "TG",
+		"Dial": 228
+	},
+	{
+		"Country_Name": "Tokelau",
+		"Official_Name_English": "Tokelau",
+		"Country_Code": "TK",
+		"Dial": 690
+	},
+	{
+		"Country_Name": "Tonga",
+		"Official_Name_English": "Tonga",
+		"Country_Code": "TO",
+		"Dial": 676
+	},
+	{
+		"Country_Name": "Trinidad & Tobago",
+		"Official_Name_English": "Trinidad and Tobago",
+		"Country_Code": "TT",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Tunisia",
+		"Official_Name_English": "Tunisia",
+		"Country_Code": "TN",
+		"Dial": 216
+	},
+	{
+		"Country_Name": "Turkey",
+		"Official_Name_English": "Turkey",
+		"Country_Code": "TR",
+		"Dial": 90
+	},
+	{
+		"Country_Name": "Turkmenistan",
+		"Official_Name_English": "Turkmenistan",
+		"Country_Code": "TM",
+		"Dial": 993
+	},
+	{
+		"Country_Name": "Turks & Caicos Islands",
+		"Official_Name_English": "Turks and Caicos Islands",
+		"Country_Code": "TC",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Tuvalu",
+		"Official_Name_English": "Tuvalu",
+		"Country_Code": "TV",
+		"Dial": 688
+	},
+	{
+		"Country_Name": "U.S. Virgin Islands",
+		"Official_Name_English": "United States Virgin Islands",
+		"Country_Code": "VI",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "UK",
+		"Official_Name_English": "United Kingdom of Great Britain and Northern Ireland",
+		"Country_Code": "GB",
+		"Dial": 44
+	},
+	{
+		"Country_Name": "US",
+		"Official_Name_English": "United States of America",
+		"Country_Code": "US",
+		"Dial": 1
+	},
+	{
+		"Country_Name": "Uganda",
+		"Official_Name_English": "Uganda",
+		"Country_Code": "UG",
+		"Dial": 256
+	},
+	{
+		"Country_Name": "Ukraine",
+		"Official_Name_English": "Ukraine",
+		"Country_Code": "UA",
+		"Dial": 380
+	},
+	{
+		"Country_Name": "United Arab Emirates",
+		"Official_Name_English": "United Arab Emirates",
+		"Country_Code": "AE",
+		"Dial": 971
+	},
+	{
+		"Country_Name": "Uruguay",
+		"Official_Name_English": "Uruguay",
+		"Country_Code": "UY",
+		"Dial": 598
+	},
+	{
+		"Country_Name": "Uzbekistan",
+		"Official_Name_English": "Uzbekistan",
+		"Country_Code": "UZ",
+		"Dial": 998
+	},
+	{
+		"Country_Name": "Vanuatu",
+		"Official_Name_English": "Vanuatu",
+		"Country_Code": "VU",
+		"Dial": 678
+	},
+	{
+		"Country_Name": "Vatican City",
+		"Official_Name_English": "Holy See",
+		"Country_Code": "VA",
+		"Dial": 39
+	},
+	{
+		"Country_Name": "Venezuela",
+		"Official_Name_English": "Venezuela (Bolivarian Republic of)",
+		"Country_Code": "VE",
+		"Dial": 58
+	},
+	{
+		"Country_Name": "Vietnam",
+		"Official_Name_English": "Viet Nam",
+		"Country_Code": "VN",
+		"Dial": 84
+	},
+	{
+		"Country_Name": "Wallis & Futuna",
+		"Official_Name_English": "Wallis and Futuna Islands",
+		"Country_Code": "WF",
+		"Dial": 681
+	},
+	{
+		"Country_Name": "Western Sahara",
+		"Official_Name_English": "Western Sahara",
+		"Country_Code": "EH",
+		"Dial": 212
+	},
+	{
+		"Country_Name": "Yemen",
+		"Official_Name_English": "Yemen",
+		"Country_Code": "YE",
+		"Dial": 967
+	},
+	{
+		"Country_Name": "Zambia",
+		"Official_Name_English": "Zambia",
+		"Country_Code": "ZM",
+		"Dial": 260
+	},
+	{
+		"Country_Name": "Zimbabwe",
+		"Official_Name_English": "Zimbabwe",
+		"Country_Code": "ZW",
+		"Dial": 263
+	},
+	{
+		"Country_Name": "Ãland Islands",
+		"Official_Name_English": "Ãland Islands",
+		"Country_Code": "AX",
+		"Dial": 358
+	}
+]

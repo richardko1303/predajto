@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col items-center bg-primary-white">
 		<Navbar/>
-		<div class="h-[100vh]">
+		<div class="h-fit">
 			<router-view></router-view>
 		</div>
 
@@ -23,7 +23,6 @@ export default {
 		Cookies
 	},
 	mounted() {
-		console.log(this.$cookieStore.getStrictlyNecessaryCookie())
 		if(!this.$cookieStore.getStrictlyNecessaryCookie()) this.$cookieStore.setCookiePosition(1)
 
 		this.$cookieStore.setStrictlyNecessary(this.$cookieStore.getStrictlyNecessaryCookie())
