@@ -14,6 +14,15 @@ class Inzerat extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+            'title' => $this->title,
+            'description' => $this->description,
+            'important_info' => $this->important_info,
+            'price' => $this->price,
+            'location' => $this->location,
+            'email' => $this->email,
+            'phone' => $this->phone,
+            'created_at' => $this->created_at,
+        ];
     }
 }

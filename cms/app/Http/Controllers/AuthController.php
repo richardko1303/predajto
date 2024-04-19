@@ -53,7 +53,7 @@ class AuthController extends Controller
 
         $user = Auth::user();
 
-        $generatedToken = $this->generateToken(); //bin2hex(random_bytes(256));
+        $generatedToken = $this->generateToken();
 
         while(UserToken::where('token', $generatedToken)->first()) {
             $generatedToken = bin2hex(random_bytes(64));
@@ -85,6 +85,7 @@ class AuthController extends Controller
         ];
         $secret = bin2hex(random_bytes(256));
 
+        // TODO: asi nie je dobry JWT sposob cize prerobit
         return hash_hmac('sha256', base64_encode(json_encode($header)) . "." . base64_encode(json_encode($payload)), $secret);
     }
 }

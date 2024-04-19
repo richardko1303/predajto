@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use App\Models\Inzerat;
+use App\Http\Resources\Inzerat as InzeratResource;
 
 class InzeratController extends Controller
 {
@@ -28,13 +29,7 @@ class InzeratController extends Controller
             ->where('price', '<=', $cenaDo)
             ->get();
 
-        return [
-            'searchString' => $searchString,
-            'mesto' => $mesto,
-            'cenaOd' => $cenaOd,
-            'cenaDo' => $cenaDo,
-            'onlyWImgs' => $onlyWImgs
-        ];
+        return new InzeratResource($inzerat);
     }
 
     public function index() {
@@ -48,7 +43,7 @@ class InzeratController extends Controller
             return ['status' => 'not found'];
         }
 
-        return $inzerat;
+        return new InzeratResource($inzerat);
     }
 
     public function store(Request $request) {
@@ -64,6 +59,8 @@ class InzeratController extends Controller
 
         // TODO: validation
         $inzerat = Inzerat::create($data);
+
+        return new InzeratResource($inzerat);
     }
 
     public function update($id, Request $request) {
