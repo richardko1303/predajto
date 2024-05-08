@@ -1,6 +1,6 @@
 <template>
 	<Disclosure as="nav" class="bg-gray-900 max-w-[1032px] w-full" v-slot="{ open }">
-		<div class="px-4 sm:px-6 lg:px-8">
+		<div class="px-2 sm:px-0">
 			<div class="flex h-20 justify-between">
 				<div class="flex">
 					<div class="flex flex-shrink-0 items-center">
@@ -9,7 +9,7 @@
 				</div>
 				<div class="hidden sm:ml-6 sm:flex sm:items-center">
 					<div class="flex space-x-4 cursor-pointer">
-						<button class="py-4 px-8 rounded-full bg-primary-light-green bg-opacity-50 hover:bg-opacity-100 text-primary-black font-medium">
+						<button @click="$router.push('/creating')" class="py-4 px-8 rounded-full bg-primary-light-green bg-opacity-50 hover:bg-opacity-100 text-primary-black font-medium">
 							Vytvoriť nový inzerát
 						</button>
 						<button class="py-4 px-8 rounded-full bg-primary-dark-green bg-opacity-80 hover:bg-opacity-100 text-white font-medium">

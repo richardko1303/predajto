@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col items-center bg-primary-white">
 		<Navbar/>
-		<div class="h-fit">
+		<div class="h-fit min-h-[100vh]">
 			<router-view></router-view>
 		</div>
 
