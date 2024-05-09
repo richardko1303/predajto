@@ -1,7 +1,7 @@
 <template>
-	<div class="h-full flex flex-col justify-center">
+	<div class="h-full flex flex-col justify-center p-2 sm:p-0">
 		<div class="pb-8">
-			<h1>
+			<h1 class="text-center">
 				Prihláste sa do svojho účtu
 			</h1>
 			<p class="text-light text-center">

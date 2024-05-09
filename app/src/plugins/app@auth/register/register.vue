@@ -1,5 +1,5 @@
 <template>
-	<div class="h-full flex flex-col justify-center min-w-[415px]">
+	<div class="h-full flex flex-col justify-center sm:min-w-[415px] w-full p-2 sm:p-0">
 		<div class="pb-8">
 			<h1>
 				Nový účet
