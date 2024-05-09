@@ -5,7 +5,7 @@
 		</h1>
 		<div class="sm:grid sm:grid-cols-2 sm:gap-6">
 			<div class="col-span-1">
-				<div class="my-12 w-full grid grid-cols-4 gap-2 mb-4">
+				<div class="my-12 w-full sm:grid flex flex-col grid-cols-4 gap-2 mb-4">
 					<Input class="col-span-3" placeholder="Zadajte názov" label="Názov produktu"/>
 					<Input class="col-span-1" placeholder="Zadajte cenu" label="Cena"/>
 				</div>

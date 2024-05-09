@@ -12,7 +12,7 @@
 						<button @click="$router.push('/creating')" class="py-4 px-8 rounded-full bg-primary-light-green bg-opacity-50 hover:bg-opacity-100 text-primary-black font-medium">
 							Vytvoriť nový inzerát
 						</button>
-						<button class="py-4 px-8 rounded-full bg-primary-dark-green bg-opacity-80 hover:bg-opacity-100 text-white font-medium">
+						<button @click="$router.push('/login')" class="py-4 px-8 rounded-full bg-primary-dark-green bg-opacity-80 hover:bg-opacity-100 text-white font-medium">
 							Prihlásiť sa
 						</button>
 					</div>
