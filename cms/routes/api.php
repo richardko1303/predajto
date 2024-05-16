@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use \App\Http\Middleware\TokenMiddleware as AuthMiddleware;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
@@ -15,9 +16,11 @@ Route::group(['prefix' => 'auth'], function () {
 });
 
 Route::group(['prefix' => 'inzerat'], function () {
-    Route::get('/', 'App\Http\Controllers\InzeratController@index');
-    Route::get('/{id}', 'App\Http\Controllers\InzeratController@show');
-    Route::post('/', 'App\Http\Controllers\InzeratController@store');
-    Route::put('/{id}', 'App\Http\Controllers\InzeratController@update');
-    Route::delete('/{id}', 'App\Http\Controllers\InzeratController@destroy');
+    Route::middleware(AuthMiddleware::class)->group(function () {
+        Route::get('/', 'App\Http\Controllers\InzeratController@index');
+        Route::get('/{id}', 'App\Http\Controllers\InzeratController@show');
+        Route::post('/', 'App\Http\Controllers\InzeratController@create');
+        Route::put('/{id}', 'App\Http\Controllers\InzeratController@update');
+        Route::delete('/{id}', 'App\Http\Controllers\InzeratController@destroy');
+    });
 });

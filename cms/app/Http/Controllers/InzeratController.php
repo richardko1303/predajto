@@ -2,6 +2,7 @@
 // TODO: overovanie
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use App\Models\Inzerat;
@@ -19,21 +20,44 @@ class InzeratController extends Controller
         $cenaDo = $request->input('price_max');
         $onlyWImgs = $request->input('onlyImgs');
 
-        $inzerat = Inzerat::where('title', 'like', '%'.$searchString.'%');
-
-        if ($mesto != null) {
-            $inzerat = $inzerat->where('location', 'like', '%'.$mesto.'%');
+        if($cenaDo == null) {
+            $cenaDo = 999999999;
         }
 
-        $inzerat = $inzerat->where('price', '>=', $cenaOd)
-            ->where('price', '<=', $cenaDo)
-            ->get();
+        if($cenaOd == null) {
+            $cenaOd = 0;
+        }
 
-        return new InzeratResource($inzerat);
+        $inzerat = new Collection();
+
+        if ($mesto == null) {
+            $inzerat = collect(
+                Inzerat::where('title', 'like', '%'.$searchString.'%')
+                    ->orWhere('description', 'like', '%'.$searchString.'%')
+                    ->where('price', '>=', $cenaOd)
+                    ->where('price', '<=', $cenaDo)
+                    ->get()
+            );
+        } else {
+            $inzerat = collect(
+                Inzerat::where('title', 'like', '%'.$searchString.'%')
+                    ->orWhere('description', 'like', '%'.$searchString.'%')
+                    ->where('location', 'like', '%'.$mesto.'%')
+                    ->where('price', '>=', $cenaOd)
+                    ->where('price', '<=', $cenaDo)
+                    ->get()
+            );
+        }
+
+        if($inzerat == null) {
+            return ['status' => 'not found'];
+        }
+
+        return InzeratResource::collection($inzerat);
     }
 
     public function index() {
-        return Inzerat::all();
+        return InzeratResource::collection(Inzerat::all());
     }
 
     public function show($id) {
@@ -46,7 +70,9 @@ class InzeratController extends Controller
         return new InzeratResource($inzerat);
     }
 
-    public function store(Request $request) {
+    public function create(Request $request) {
+        $user = User::where('id', $request->get('tokenUserID'))->first();
+
         $data = [
             'title' => $request->request->get('title'),
             'description' => $request->request->get('description'),
@@ -55,15 +81,24 @@ class InzeratController extends Controller
             'location' => $request->request->get('location'),
             'email' => $request->request->get('email'),
             'phone' => $request->request->get('phone'),
+            'user_id' => $user->id,
+            'sub_category_id' => 1
         ];
 
-        // TODO: validation
+        foreach ($data as $key => $value) {
+            if($value == null) {
+                return ['status' => 'missing '.$key.' field'];
+            }
+        }
+
         $inzerat = Inzerat::create($data);
 
         return new InzeratResource($inzerat);
     }
 
     public function update($id, Request $request) {
+        $user = User::where('id', $request->get('tokenUserID'))->first();
+
         $data = [
             'title' => $request->request->get('title'),
             'description' => $request->request->get('description'),
@@ -74,18 +109,30 @@ class InzeratController extends Controller
             'phone' => $request->request->get('phone'),
         ];
 
-        $inzerat = Inzerat::where('id', $id)->first();
+        foreach ($data as $key => $value) {
+            if($value == null) {
+                return ['status' => 'missing '.$key.' field'];
+            }
+        }
+
+        $inzerat = Inzerat::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
 
         if($inzerat == null) {
             return ['status' => 'not found'];
         }
 
-        // TODO
-        return "Inzerat::where('id', )->first()";
+        $inzerat->update($data);
+
+        return new InzeratResource($inzerat);
     }
 
-    public function destroy($id) {
-        $inzerat = Inzerat::where('id', $id)->first();
+    public function destroy($id, Request $request) {
+        $user = User::where('id', $request->get('tokenUserID'))->first();
+        $inzerat = Inzerat::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
 
         if($inzerat == null) {
             return ['status' => 'not found'];

@@ -11,6 +11,19 @@ class Inzerat extends Model
 {
     use HasFactory;
 
+
+    protected $fillable = [
+        'title',
+        'description',
+        'important_info',
+        'price',
+        'location',
+        'email',
+        'phone',
+        'user_id',
+        'sub_category_id',
+    ];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
