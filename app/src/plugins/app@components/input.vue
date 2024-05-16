@@ -7,9 +7,9 @@
 				<img src="@/assets/dropdown.svg" alt="">
 			</div>
 			<input v-model="value" @focus="inputFocus = true" @blur="inputFocus = false" class=" !rounded-none !border-none p-4" type="text">
-			<div v-if="displayPopover" class="border-[0.5px] border-primary-light-green rounded-md absolute top-16 left-0 overflow-y-scroll max-h-[240px]">
+			<div v-if="displayPopover" class="border-[0.5px] bg-white z-50 border-primary-light-green rounded-md absolute top-16 left-0 overflow-y-scroll max-h-[240px]">
 				<div v-for="country in countries" @click="selectedCountryDial = country; displayPopover = false" class="flex items-center gap-2 cursor-pointer">
-					<div class="flex gap-2 p-2 border-b">
+					<div class="flex gap-2 p-2 border-b w-full">
 						{{ country.Country_Code }} +{{ country.Dial }}
 					</div>
 
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<input v-else-if="(type !== 'textarea') && (type !== 'phone')" v-model="value" :class="[minHeight, maxWidth, 'p-4']" :type="type" :placeholder="placeholder">
-		<textarea v-else v-model="value" :placeholder="placeholder" :class="[minHeight, maxWidth, 'p-4']"></textarea>
+		<textarea v-else v-model="value" :placeholder="placeholder" :class="[minHeight, maxWidth, customBorder, borderOpacity, bg, bgOpacity, 'p-4']"></textarea>
 	</div>
 </template>
 
@@ -76,7 +76,23 @@ export default {
 		type: {
 			type: String,
 			default: 'text'
-		}
+		},
+		bg: {
+			type: String,
+			default: ''
+		},
+		bgOpacity: {
+			type: String,
+			default: ''
+		},
+		customBorder: {
+			type: String,
+			default: ''
+		},
+		borderOpacity: {
+			type: String,
+			default: ''
+		},
 	}
 }
 </script>

@@ -4,7 +4,7 @@
 		    sec-search flex justify-center py-16
 		    bg-gradient-to-r from-primary-light-green to-primary-white
         ">
-		<input v-model="searchQuery" placeholder="Search..." class="rounded-full bg-primary-white pl-8 py-3 w-[35vw] outline-none border border-transparent cursor-text focus:border focus:border-primary-light-green" type="text">
+	<input v-model="searchQuery" placeholder="Search..." class="rounded-full bg-primary-white pl-8 py-3 w-[80vw] sm:w-[60vw] outline-none border border-transparent cursor-text focus:border focus:border-primary-light-green" type="text">
         </section>
 
         <section class="options flex justify-center py-8">
