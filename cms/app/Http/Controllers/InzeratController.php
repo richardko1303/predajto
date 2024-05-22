@@ -21,7 +21,7 @@ class InzeratController extends Controller
         $onlyWImgs = $request->input('onlyImgs');
 
         if($cenaDo == null) {
-            $cenaDo = 999999999;
+            $cenaDo = 999999;
         }
 
         if($cenaOd == null) {

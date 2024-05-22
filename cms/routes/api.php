@@ -24,3 +24,9 @@ Route::group(['prefix' => 'inzerat'], function () {
         Route::delete('/{id}', 'App\Http\Controllers\InzeratController@destroy');
     });
 });
+
+Route::group(['prefix' => 'categories'], function() {
+    Route::get('/', 'App\Http\Controllers\CategoryController@onlyCategories');
+    Route::get('/sub', 'App\Http\Controllers\CategoryController@getAll');
+    Route::get('/{id}', 'App\Http\Controllers\CategoryController@getOneCategory');
+});
