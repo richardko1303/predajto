@@ -8,7 +8,7 @@
                 <p class="font-semibold">{{ title }}</p>
                 <p class="text-primary-light-green font-semibold">{{ price }}</p>
             </div>
-            <p class="text-sm text-primary-gray whitespace-normal w-[100%]">{{ desc }}</p>
+            <p class="text-sm text-primary-gray whitespace-normal w-full">{{ desc }}</p>
             <div class="flex flex-row justify-self-end mt-8">
                 <img src="/src/assets/map-pin.svg" alt="Place Icon" />
                 <p>{{ place }}</p>
