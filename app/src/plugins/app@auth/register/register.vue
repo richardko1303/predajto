@@ -13,8 +13,8 @@
 			<Input v-model="credentials.email" type="email" label="Email" placeholder="Zadajte svoj email"/>
 			<Input v-model="credentials.phone" @dial="console.log(phoneDial = `${$event}`)" class="mt-2" placeholder="Zadajte svoje telefónne číslo" label="Telefónne číslo" type="phone"/>
 			<div class="w-full grid grid-cols-4 gap-2">
-				<Input type="password" class="col-span-2" placeholder="Zadajte heslo" label="Heslo"/>
-				<Input type="password" class="col-span-2" placeholder="Zopakujte heslo" label="Potvrdenie hesla"/>
+				<Input v-model="credentials.password" type="password" class="col-span-2" placeholder="Zadajte heslo" label="Heslo"/>
+				<Input v-model="credentials.password_confirmation" type="password" class="col-span-2" placeholder="Zopakujte heslo" label="Potvrdenie hesla"/>
 			</div>
 		</div>
 		<div>
@@ -43,17 +43,16 @@ export default {
 			credentials: {
 				name: '',
 				email: '',
-				phone: '',
 				password: '',
-				confirmPassword: '',
+				password_confirmation: '',
 			},
 			phoneDial: ''
 		}
 	},
 	methods: {
 		register() {
-			this.credentials.phone = `+${this.phoneDial} ${this.credentials.phone}`
-			console.log(this.credentials)
+			// this.credentials.phone = `+${this.phoneDial} ${this.credentials.phone}`
+			this.$authStore.signUp(this.credentials)
 		}
 	}
 }
